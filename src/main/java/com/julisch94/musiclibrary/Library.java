@@ -11,7 +11,7 @@ public class Library {
         this.artists = new ArrayList<>();
     }
 
-    public List<Artist> getArtists() {
+    public List<Artist> getAllArtists() {
         return artists;
     }
 
