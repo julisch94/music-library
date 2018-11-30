@@ -2,9 +2,9 @@ package com.julisch94.musiclibrary;
 
 import java.util.List;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 
-public class Query implements GraphQLResolver {
+public class Query implements GraphQLQueryResolver {
 
     private final Library library;
 
