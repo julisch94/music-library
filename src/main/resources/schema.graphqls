@@ -1,0 +1,11 @@
+type Artist {
+    name: String!
+}
+
+type Query {
+    allArtists: [Artist]
+}
+
+schema {
+    query: Query
+}
